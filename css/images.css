@@ -1,0 +1,18 @@
+/* Ensure container text is centered */
+.container {
+    text-align: center;
+}
+
+/* Image Styles */
+.image {
+    width: 100%;
+    max-width: 400px; 
+    border-radius: 8px;
+    margin-top: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow for a 3D effect */
+    transition: transform 0.3s ease; /* Smooth transition for hover effect */
+    display: inline-block;
+}
+.container {
+    text-align: center;
+}
