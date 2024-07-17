@@ -1,6 +1,6 @@
 const express = require('express');
 const bodyParser = require('body-parser');
-const sendEmail = require('./sendEmail'); // Adjust the path according to the new structure
+const sendEmail = require('./sendEmail'); 
 
 const app = express();
 const PORT = process.env.PORT || 3001;

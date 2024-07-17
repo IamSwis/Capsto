@@ -9,9 +9,9 @@ document.addEventListener('DOMContentLoaded', function() {
         const data = {};
         formData.forEach((value, key) => (data[key] = value));
   
-        console.log('Form data being sent:', data); // Log the form data being sent
+        console.log('Form data being sent:', data); // Log form data being sent
   
-        fetch('http://localhost:3001/send-email', { // Ensure the URL and port are correct
+        fetch('http://localhost:3001/send-email', { 
           method: 'POST',
           headers: {
             'Content-Type': 'application/json',
