@@ -1,0 +1,79 @@
+/* Section Styles */
+.section {
+    padding: 20px;
+    text-align: center;
+}
+
+/* Container Styles */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+#live-data {
+    margin-bottom: 20px;
+}
+
+/* Video Container Styles */
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 aspect ratio */
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+    background: #000;
+}
+
+.video-container video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/* Testimonials Styles */
+.testimonials-container {
+    text-align: center;
+    padding: 20px;
+}
+
+.carousel {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+.carousel-item {
+    display: none;
+    padding: 20px;
+}
+
+.carousel-item.active {
+    display: block;
+}
+
+.carousel-controls {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.carousel-controls .prev,
+.carousel-controls .next {
+    cursor: pointer;
+    padding: 10px;
+    margin: 0 10px;
+    background-color: #333;
+    color: #fff;
+    border-radius: 50%;
+    user-select: none;
+}
